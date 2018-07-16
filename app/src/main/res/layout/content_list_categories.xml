@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:padding="@dimen/activity_vertical_margin"
+  android:layout_height="match_parent">
+  
+  <LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#bbb"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+    
+    <TextView
+      android:id="@+id/title_category"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+      android:textStyle="bold"
+      android:paddingRight="5dp"
+      android:paddingEnd="5dp"
+      
+      android:gravity="bottom|end"/>
+    
+  </LinearLayout>
+  
+</android.support.constraint.ConstraintLayout>

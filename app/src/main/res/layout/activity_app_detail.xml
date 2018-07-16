@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".presentation.views.AppDetailActivity">
+  
+  
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+    
+    
+    <ImageView
+      android:id="@+id/image_app"
+      
+      android:layout_gravity="center"
+      android:src="@mipmap/ic_launcher"
+      android:layout_width="250dp"
+      android:layout_height="150dp" />
+    
+    <TextView
+      android:text="Summary:"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_width="match_parent"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+      android:layout_height="wrap_content" />
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <TextView
+        android:id="@+id/summary_app"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </ScrollView>
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
